@@ -5,7 +5,7 @@ import HoverCounter from './components/HoverCounter';
 function App() {
   return (
     <div className="App">
-      <ClickCounter name={'Bhanu prakash'}/>
+      <ClickCounter name={'Bhanu prakash react dev'}/>
       <HoverCounter/>
     </div>
   );
