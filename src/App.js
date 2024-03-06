@@ -6,6 +6,10 @@ import MuiTypography from './components/MUI/MuiTypography';
 import MuiTextFields from './components/MUI/MuiTextFields';
 import MuiSelect from './components/MUI/MuiSelect';
 import MuiRadio from './components/MUI/MuiRadio';
+import FormRedux from './components/FormRedux';
+import Todo from './components/Todo/todo'
+import '../src/Redux/store'
+import ReduxTable from './components/ReduxTable';
 
 function App() {
   return (
@@ -17,6 +21,9 @@ function App() {
       <MuiTextFields/>
       <MuiSelect/>
       <MuiRadio/>
+      <FormRedux/>
+      <ReduxTable/>
+      <Todo/>
     </div>
   );
 }
