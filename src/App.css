@@ -49,3 +49,48 @@
   margin: 4px;
   padding: 5px;
 }
+
+.form-heading{
+  color: #0EACF9;
+}
+
+.input-fields{
+  height: 30px;
+  width: 250px;
+  outline: none;
+  margin: 3px;
+}
+
+.primary-button{
+  background-color: #0EACF9;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  width: 150px;
+  padding: 3px;
+  margin: 3px;
+}
+
+.red-button{
+  background-color:#e92222;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  width: 150px;
+  padding: 3px;
+  margin: 3px;
+}
+
+table, th, td{
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+th,td{
+ height: 30px;
+ padding: 5px 15px;
+}

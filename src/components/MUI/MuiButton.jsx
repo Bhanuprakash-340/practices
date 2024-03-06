@@ -7,7 +7,7 @@ import FormatUnderlinedIcon from '@mui/icons-material/FormatUnderlined';
 
 const MuiButton = () => {
   const[formats, setFormats] = useState(null|"")
-   console.log(formats)
+  //  console.log(formats)
 
   const handleFormats = (event, formatChange) =>{
     setFormats(formatChange)
